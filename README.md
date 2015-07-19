@@ -1,12 +1,12 @@
 # 2048
 APCS Final Project of 2048! :)
 
-==MainScene Class==
-Requirements: The MainScene class manages all the game logistics. This means that the score, options, pausing, ending, and restarting the game are all managed in the MainScene. 
+### MainScene Class
+\n Requirements: The MainScene class manages all the game logistics. This means that the score, options, pausing, ending, and restarting the game are all managed in the MainScene. 
 The Functional Specifications: To create and manage the MainScene, the following functionality must be provided:
 Keeps track of the current status of the game, most easily said by tracking the score.
-The score is managed like so:
-*Only tiles that are the same value can be added together (and thus the same color value)
+The score is managed like so: <ul>
+<li> Only tiles that are the same value can be added together (and thus the same color value)
 *Score is calculated by the number of moves made
 *In order to win the game: You must reach the highest number possible. In standard games, the highest is 2^11, or 2048. 
 *To lose the game: No moves are left, meaning that there are no empty tiles left in the 4 by 4 grid. 
